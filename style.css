@@ -1,0 +1,456 @@
+body {
+    margin: 0;
+    width: 100vw;
+    z-index: 0;
+    padding: 0;
+    height: 300vh;
+    background: linear-gradient(rgba(31, 30, 30, 0.747), rgb(15, 15, 15)),
+        url(img/MALTWEAR-PNG-LARANJA.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 100px;
+    color: rgb(184, 121, 4);
+    border-bottom: 2px solid rgb(184, 121, 4);
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    color: rgb(184, 121, 4);
+    text-align: center;
+}
+
+.caixa1 {
+   width: 300px;
+    height: 200px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    color: rgb(184, 121, 4);
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0 4px 8px rgb(184, 121, 4);
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+
+.caixa1 img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.preço1 {
+    margin-top: 22px;
+    font-size: 22px;
+    color: #fff;
+    text-align: right;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.caixa2 {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    color: rgb(184, 121, 4);
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0 4px 8px rgb(184, 121, 4);
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+
+}
+
+.caixa2 img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.preço2 {
+    margin-top: 22px;
+    font-size: 22px;
+    color: #fff;
+    text-align: right;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+
+
+
+.caixa3 {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    color: rgb(184, 121, 4);
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0 4px 8px rgb(184, 121, 4);
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+
+.caixa3 img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.preço3 {
+    margin-top: 22px;
+    font-size: 22px;
+    color: #fff;
+    text-align: right;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+.caixa4 {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    color: rgb(184, 121, 4);
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0 4px 8px rgb(184, 121, 4);
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+
+.caixa4 img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.preço4 {
+    margin-top: 22px;
+    font-size: 22px;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.container :hover {
+    transform: translateY(-10px) scale(1.1);
+    background-color: rgb(255, 197, 91);
+}
+
+.caixa5 {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    color: rgb(184, 121, 4);
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0 4px 8px rgb(184, 121, 4);
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+
+}
+
+.preço5 {
+    margin-top: 22px;
+    font-size: 22px;
+    color: white;
+    text-align: right;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.caixa5 img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.caixa6 {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    color: rgb(184, 121, 4);
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0 4px 8px rgb(184, 121, 4);
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+
+}
+
+.caixa6 img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+.preço6 {
+    margin-top: 22px;
+    font-size: 22px;
+    color: white;
+    text-align: right;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.caixa7 {
+
+    width: 300px;
+    height: 200px;
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    color: rgb(184, 121, 4);
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0 4px 8px rgb(184, 121, 4);
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+
+}
+
+.caixa7 img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.preço7 {
+    margin-top: 22px;
+    font-size: 22px;
+    color: white;
+    text-align: right;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+.container2 {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.container2 :hover {
+    transform: translateY(-10px) scale(1.1);
+    background-color: rgb(255, 197, 91);
+}
+
+.caixa8 {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    color: rgb(184, 121, 4);
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0 4px 8px rgb(184, 121, 4);
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+
+}
+
+.caixa8 img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.preço8 {
+    margin-top: 22px;
+    font-size: 22px;
+    color: white;
+    text-align: right;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: none;
+    font-weight: weight;
+    font-style: normal;
+    position: fixed;
+}
+
+.botao-caixa1 {
+    display: inline-block;
+    border: #ff7b00;
+    background-color: #ff7b00;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.botao-caixa2 {
+    display: inline-block;
+    border: #ff7b00;
+    background-color: #ff7b00;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.botao-caixa3 {
+    display: inline-block;
+    border: #ff7b00;
+    background-color: #ff7b00;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.botao-caixa4 {
+    display: inline-block;
+    border: #ff7b00;
+    background-color: #ff7b00;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.botao-caixa5 {
+    display: inline-block;
+    border: #ff7b00;
+    background-color: #ff7b00;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.botao-caixa6 {
+    display: inline-block;
+    border: #ff7b00;
+    background-color: #ff7b00;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.botao-caixa7 {
+    display: inline-block;
+    border: #ff7b00;
+    background-color: #ff7b00;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.botao-caixa8 {
+    display: inline-block;
+    border: #ff7b00;
+    background-color: #ff7b00;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+} 
+
+.sobre-nos {
+    text-align: center;
+}
+
+.logo-insta {
+     margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
